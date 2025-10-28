@@ -26,7 +26,7 @@ import { Select } from 'primeng/select';
 })
 export class AppComponent {
   registrationForm: FormGroup;
-  users: Array<{firstName: string; lastName: string; email: string; university: string}> = [];
+  users: Array<{ firstName: string; lastName: string; email: string; university: string }> = [];
   universities = [
     { label: 'Harvard University', value: 'Harvard University' },
     { label: 'Stanford University', value: 'Stanford University' },
@@ -59,11 +59,12 @@ export class AppComponent {
 
   getFieldError(fieldName: string): string {
     const field = this.registrationForm.get(fieldName);
+    console.log(field?.errors)
     if (field?.touched && field?.invalid) {
       if (field.errors?.['required']) {
         return 'This field is required';
       }
-      if (field.errors?.['minLength']) {
+      if (field.errors?.['minlength']) {
         return 'Minimum length is 2 characters';
       }
       if (field.errors?.['email']) {
