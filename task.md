@@ -1,10 +1,10 @@
-# Lab tasks — Angular form & table (30–40 minutes each)
+# Lab tasks — Angular form & table
 
 Below are suggested tasks for students to complete using the current project. Each task is designed to be completed in ~30–40 minutes. For each task you'll find a short description, acceptance criteria, suggested files to edit, and hints.
 
 ---
 
-## Task 1 — Add "Remove" (delete) row functionality (30 minutes)
+## Task 1 — Add "Remove" (delete) row functionality
 
 Description
 
@@ -33,7 +33,7 @@ Stretch
 
 ---
 
-## Task 2 — Add custom validation: allow only specific email domains (30 minutes)
+## Task 2 — Add custom validation: allow only specific email domains
 
 Description
 
@@ -60,7 +60,7 @@ Stretch
 
 ---
 
-## Task 3 — Prevent duplicate emails (30 minutes)
+## Task 3 — Prevent duplicate emails
 
 Description
 
@@ -83,7 +83,7 @@ Hints
 
 ---
 
-## Task 4 — Add filters for all table fields (30–40 minutes)
+## Task 4 — Add filters for all table fields
 
 Description
 
